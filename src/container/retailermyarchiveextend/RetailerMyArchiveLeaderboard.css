@@ -1,0 +1,6 @@
+@media screen and (max-width:768px) {
+    .archive_list_name_flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

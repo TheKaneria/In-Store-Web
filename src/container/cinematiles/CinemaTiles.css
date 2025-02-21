@@ -1,0 +1,24 @@
+.cinematiles-head-desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}   
+
+.leaderboard-sub-wrapp-cinema{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+@media screen and (max-width:1385px) {
+    .leaderboard-sub-wrapp-cinema{
+        padding-right:2rem;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .leaderboard-sub-wrapp-cinema{
+    padding: 1rem !important;
+    }
+  }

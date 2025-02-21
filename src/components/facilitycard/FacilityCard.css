@@ -1,0 +1,44 @@
+.facility_card_main_wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    /* min-height: 300px; */
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    gap: 10px;
+}
+
+.facility_logo {
+    max-width: 74px;
+    /* height: 50px; */
+}
+
+.facility_card_heading {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--color-black);
+}
+
+.facility_card_des {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-black);
+}
+
+.react-switch-handle {
+    width: 23px !important;  /* Smaller circle size */
+    height: 23px !important; /* Smaller circle size */
+    border-radius: 50% !important;  /* Make it round */
+    background-color: white !important;  /* White circle color */
+    top: 2px !important;
+  }
+
+
+@media (max-width: 500px) {
+    .facility_card_main_wrapp {
+        padding-bottom: 50px;
+    }
+}

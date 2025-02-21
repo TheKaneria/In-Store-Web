@@ -1,0 +1,119 @@
+.brandinmall_sec_wrapp {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 2rem;
+    /* width: 100%; */
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    margin-top: 2rem;
+}
+
+.brandinmall_part_1 {
+    /* width: 30%; */
+    min-width: 325px;
+    max-width: 325px;
+    padding: 10px;
+}
+.brandinmall_part_2 {
+    /* width: 68%; */
+    padding: 10px;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px; */
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.brandinmall_sec_wrapp_line_up_div{
+    margin-left: 5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.search_box_wrapp {
+    position: relative;
+}
+
+.search_box_icon {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.barnd_mall_title_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-black);
+    margin-top: 1rem;
+}
+
+.bim_accordian_wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.bim_accordian_btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.bim_accordian_btn > p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bim_accordian_mall_wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+.bim_accordian_mall_wrapp > button {
+   font-size: 14px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:990px) {
+   .brandinmall_sec_wrapp{
+    flex-direction: column;
+   }
+
+   .brandinmall_part_1{
+        width: 100%;
+        min-width: 100%;
+   }
+}
+@media screen and (max-width:900px) {
+
+    .brandinmall_sec_wrapp{
+        /* flex-direction: row; */
+       }
+    .brandinmall_sec_wrapp_line_up_div{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .brandinmall_sec_wrapp {
+        flex-direction: column ;
+    }
+    .brandinmall_part_1, .brandinmall_part_2 {
+        width: 100%;
+        min-width: 100%;
+    }
+}

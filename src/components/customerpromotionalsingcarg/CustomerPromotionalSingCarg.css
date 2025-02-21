@@ -1,0 +1,17 @@
+.cust-promotional-banner-imgbox {
+    width: 100%;
+    /* height: 130px; */
+    /* height: 200px; */
+    height: 100%;
+}
+
+.cust-promotional-banner-sing-img {
+    width: 100%;
+    height: 100%
+}
+
+@media screen and (max-width:585px) {
+    .cust-promotional-banner-imgbox {
+        height: 100%;
+    }
+}

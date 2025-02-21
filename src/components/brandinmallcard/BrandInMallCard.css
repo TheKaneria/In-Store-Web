@@ -1,0 +1,48 @@
+
+.my_brand_in_mall_logos_wrapp{
+    min-width: 30%;
+}
+
+@media screen and (max-width:1420px) {
+    .my_brand_in_mall_logos_wrapp{
+        min-width: 38%;
+    }
+}
+@media screen and (max-width:1300px) {
+    .my_brand_in_mall_logos_wrapp{
+        min-width: 45%;
+    }
+}
+
+
+@media screen and (max-width:1130px) {
+    .my_brand_in_mall_logos_wrapp{
+        min-width: 100%;
+    }
+}
+
+
+@media screen and (max-width:990px) {
+    .my_brand_in_mall_logos_wrapp{
+        min-width: 45%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .my_brand_in_mall_logos_wrapp{
+        min-width: 27%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .my_brand_in_mall_logos_wrapp{
+        min-width: 37%;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .my_brand_in_mall_logos_wrapp{
+        min-width: 100%;
+    }
+}

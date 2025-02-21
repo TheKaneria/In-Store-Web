@@ -1,0 +1,52 @@
+.about_hero_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+}
+
+.about_hero_wrapp > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 700px) {
+  .about_hero_wrapp > img {
+    object-fit: contain;
+  }
+
+  .about_hero_wrapp {
+    height: auto;
+  }
+}
+
+.about-extra-gap-section {
+  margin-top: 3rem;
+  /* margin-bottom: 4.5rem; */
+}
+
+.app_logo {
+  width: 155px;
+  height: 46px;
+  border-radius: 8px;
+}
+
+.about_page_about_sec_txt {
+  padding: 0rem 1rem;
+}
+
+@media screen and (max-width: 420px) {
+  .about_apps_logos {
+    width: 125px !important;
+    height: 42px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .app_logo {
+    width: 135px;
+    height: 35px;
+  }
+}

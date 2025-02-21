@@ -1,0 +1,79 @@
+.wc_card_main_wrapp2 {
+  /* width: 278px !important;
+  min-width: 278px !important; */
+  width: 300px !important;
+  min-width: 300px !important;
+}
+
+.h3res {
+  font-size: 30px;
+}
+
+.h4res {
+  font-size: 20px;
+}
+
+.app_logo_cinema{
+  width: 115px;
+  height: 35px;
+}
+
+
+@media screen and (max-width: 1180px) {
+  .CinemaWelcomeStoreCard_welcome_cards_warpp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wc_card_main_wrapp2 {
+    min-width: 400px !important;
+    height: 480px !important;
+  }
+  .wc_text_wrapp {
+    gap: 1rem;
+    margin: 1rem;
+  }
+
+  .h3res {
+    font-size: 40px;
+  }
+
+  .h4res {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wc_card_main_wrapp2 {
+    min-width: 365px !important;
+    height: 455px !important;
+  }
+
+  .h4res_desc{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 400px) { 
+  .wc_card_main_wrapp2 {
+    min-width: 330px !important;
+    height: 370px !important;
+  }
+  .h3res_2{
+    font-size: 30px;
+  }
+  .h4res_desc{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wc_card_main_wrapp2{
+    min-width: 100% !important;
+  }
+
+  .app_logo_cinema{
+    width: 110px;
+    height: 35px;
+  }
+  
+}

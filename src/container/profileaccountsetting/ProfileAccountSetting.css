@@ -1,0 +1,142 @@
+.profile-setting_img_upload_wrapp {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.profile-account-setting-btnn-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cust-profile-acc-setting-last-part-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.cus-profile-acc-setting-form-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.mm_form_wrapp-customer-acc-setting {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 50px;
+    width: 100%;
+}
+
+.mm_form_input_wrapp-customer-acc-setting {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.mall_upload_btn_wrapp-customer-acc-setting {
+    /* gap: 25px; */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mall_upload_btn_wrapp_res {
+    display: flex !important;
+}
+
+.cus-acc-setting {
+    margin-left: 4rem;
+}
+
+
+.btn-pro-acc-cus{
+    width: 200px;
+}
+.input_box-cus-pass {
+    background: #dadada;
+    min-height: 30px;
+    width: 100%;
+    /* padding: 12px 1rem; */
+    color: var(--color-black);
+    padding-right: 8px;
+    border: none;
+}
+
+.cus_acc_mall_name_wrapp{
+    font-weight: 700;
+    padding-left: 0rem;
+}
+
+.mm_form_single_input_prof_acc{
+    flex-direction: column;
+}
+
+.cust-profile-acc-setting-last-part-flex-resp{
+    display: none;
+}
+
+@media screen and (max-width:1260px) {
+    .cus-acc-setting {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .mm_form_wrapp-customer-acc-setting {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .cus_acc_mall_name_wrapp{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .mm_form_input_wrapp-customer-acc-setting {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .cust-profile-acc-setting-last-part-flex{
+        display: none;
+    }
+
+    .cust-profile-acc-setting-last-part-flex-resp{
+        display: flex;
+    }
+
+    .mm_form_single_input_cus_accresp{
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cus-acc-setting {
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+/* @media screen and (max-width:px) {
+    .cus-acc-setting {
+        margin-left: 2rem;
+    }
+} */
+@media screen and (max-width:515px) {
+.cus_acc_mall_name_wrapp{
+    align-items: center;
+}
+}
+

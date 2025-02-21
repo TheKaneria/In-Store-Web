@@ -1,0 +1,41 @@
+.NotificationMall_main {
+  /* padding: 2rem; */
+}
+
+
+.notification_main_top_space{
+  margin: 5rem;
+}
+
+.mm_form_single_input_notification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (max-width:1150px) {
+  .notification_main_top_space{
+    margin: 3rem;
+  }
+
+  .notification_main_top_space{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .notification_main_top_space{
+    margin: 0px;
+  }
+
+  .mm_form_single_input_notification_lable{
+    min-width: 0px !important;
+  }
+
+  .notification_btnnnn{
+    margin-left: 0rem !important;
+  }
+}

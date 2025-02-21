@@ -1,0 +1,13 @@
+.terms_cond_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.terms_cond_para_text{
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: 500;
+}

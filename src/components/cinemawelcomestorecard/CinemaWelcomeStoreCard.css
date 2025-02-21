@@ -1,0 +1,10 @@
+.CinemaWelcomeStoreCard_welcome_cards_warpp {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+.CinemaWelcomeStoreCard_welcome_cards_warpp_2{
+  display:flex;
+  justify-content: center;
+}

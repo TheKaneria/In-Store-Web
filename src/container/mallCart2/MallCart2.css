@@ -1,0 +1,103 @@
+.MallCart2_main {
+  padding: 5rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.leaderboard-card-inpbox-wrapp-mall {
+  width: 50%;
+  align-items: center;
+}
+.leaderboard-card-inpbox-wrapp-mall_brand {
+  margin-bottom: 0px;
+  gap: 1rem;
+  width: 100%;
+}
+.leaderboard-card-inpbox-wrapp_cinema {
+  margin-bottom: 0px;
+  gap: 1rem;
+  width: 100%;
+}
+.leaderboard-card-inpbox-wrapp-malll {
+  width: 100%;
+  gap: 1rem;
+}
+.leaderboard-card-inpbox-wrapp-malll-label {
+  display: flex;
+  gap: 1rem;
+}
+
+.DatePicker_style_mall {
+  padding: 0.5rem;
+  width: 350px !important;
+  background-color: var(--color-bg-gray);
+  border: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.DatePicker_style_brand {
+  padding: 0.5rem;
+  width: 350px !important;
+  background-color: var(--color-bg-gray);
+  border: none;
+  color: black;
+  display: flex;
+   justify-content: space-between;
+}
+.DatePicker_style_cinema {
+  padding: 0.5rem;
+  width: 350px !important;
+  background-color: var(--color-bg-gray);
+  border: none;
+  color: black;
+  display: flex;
+   justify-content: space-between;
+}
+
+.rs-picker-daterange-panel{
+  min-width: 100% !important;
+}
+.month_checkbox_retailer {
+  width: 315px;
+}
+@media screen and (max-width: 768px) {
+  .MallCart2_main {
+    padding: 2rem;
+    padding-top: 5rem;
+  }
+
+  .leaderboard-card-inpbox-wrapp-mall {
+    align-items: start;
+  }
+  .leaderboard-card-inpbox-wrapp-malll-label {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .leaderboard-card-inpbox-wrapp-mall_brand {
+    gap: 4px;
+  }
+  .leaderboard-card-inpbox-wrapp_cinema{
+    gap: 4px;
+  }
+  .leaderboard-card-lbl_brand {
+    display: none;
+  }
+  .leaderboard-card-lbl_cinema {
+    display: none;
+  }
+} 
+@media screen and (max-width: 400px) {
+  .DatePicker_style_mall,
+  .DatePicker_style_heading {
+    width: 313px !important;
+  }
+  .DatePicker_style_brand {
+    width: 100% !important;
+  }
+  .DatePicker_style_cinema {
+    width: 100% !important;
+  }
+}
